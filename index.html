@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Radhey-Shanti Foundation</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/App.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Radhey-Shanti Foundation</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="container header">
+      <div class="logo">
+        <img src="https://www.svgrepo.com/show/331166/leaf.svg" alt="Logo" />
+        <span>Radhey-Shanti Foundation</span>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#work">Our Work</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section center">
+      <h1>Welcome to Radhey-Shanti Foundation</h1>
+      <p>We empower the elderly with love, dignity, and purpose. Explore our mission and join us in creating a more compassionate world.</p>
+    </section>
+
+    <section id="about" class="section card">
+      <h2>About Us</h2>
+      <p>Radhey-Shanti Foundation is a humanitarian non-profit initiative committed to transforming the lives of elderly individuals residing in old age homes by fostering self-sufficiency, dignity, and a renewed sense of purpose.</p>
+      <p>Anchored in the timeless philosophy of “Vasudhaiva Kutumbakam”—the world is one family—our work transcends mere caregiving. We strive to cultivate environments where the elderly are not only cared for but are meaningfully engaged, empowered, and celebrated.</p>
+      <p>Through holistic approaches—vocational training, psychological support, creative enrichment, and wellness—we replace marginalization with pathways of autonomy and fulfillment.</p>
+      <p>We envision aging as a stage of wisdom, contribution, and flourishing.</p>
+    </section>
+
+    <section id="work" class="section work-grid">
+      <h2>Our Work</h2>
+      <div class="grid">
+        <div class="card"><h3>Skill-Based Empowerment</h3><p>We conduct vocational training to help elders rediscover purpose through hands-on activities.</p></div>
+        <div class="card"><h3>Emotional & Psychological Support</h3><p>We create safe environments that prioritize emotional well-being and restore self-worth.</p></div>
+        <div class="card"><h3>Creative Engagement</h3><p>We use art, music, and storytelling to stimulate minds and bring joy.</p></div>
+        <div class="card"><h3>Partnering with Old-Age Homes</h3><p>We collaborate with elder care homes for structured programs and support.</p></div>
+        <div class="card"><h3>Promoting Independent Living</h3><p>We encourage daily acts of independence to reclaim autonomy.</p></div>
+        <div class="card"><h3>Combating Loneliness</h3><p>We facilitate programs to reduce isolation and build companionship.</p></div>
+        <div class="card"><h3>Preserving Life Stories</h3><p>We document and celebrate life stories to honor cultural wisdom.</p></div>
+        <div class="card"><h3>Advocating for Dignity</h3><p>We challenge ageism and promote dignity and inclusion.</p></div>
+        <div class="card"><h3>Policy Awareness</h3><p>We advocate for systemic reform and elder care policies.</p></div>
+        <div class="card"><h3>Vasudhaiva Kutumbakam</h3><p>We believe no elder should be left behind — the world is one family.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section card">
+      <h2>Contact Us</h2>
+      <p>If you'd like to support our mission or get in touch, we'd love to hear from you.</p>
+      <form>
+        <input type="text" placeholder="Rhea Wadhwa, Samarth Aneja and Yajeya Wadhwa" />
+        <input type="email" placeholder="radheyshantifoundation@gmail.com" />
+        <textarea placeholder="Be the change!"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Radhey-Shanti Foundation. All rights reserved.
+  </footer>
+</body>
 </html>
